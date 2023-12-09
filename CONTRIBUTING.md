@@ -1,6 +1,6 @@
 These are the names of the Contributors to this github repository
-Osama Mahmoud Osama's github
-Belal EL-zaro Belal's github
+Osama Mahmoud 
+Belal EL-zaro
 To Contribute on This Project
 Fork the Repository.
 Clone it.
