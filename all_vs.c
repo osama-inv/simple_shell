@@ -36,7 +36,7 @@ int ois_chai(info_t *info, char *buffer, size_t *p)
 	return (1);
 }
 /**
- * oreplace_string - replaces an existing string
+ * oreplace_strin - replaces an existing string
  * with a new one
  * @old: Address of the original string
  * @nouveau: New string to replace with
