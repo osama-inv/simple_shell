@@ -25,7 +25,7 @@ char *_strcpy(char *dest, char *src)
 /**
  * _putchar - outputs the character
  * c to standard output
- * @c: Character to be written
+ * @ch: Character to be written
  * Return: 1 on success,
  * -1 on error with errno set accordingly
  */
