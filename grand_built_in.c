@@ -1,5 +1,4 @@
 #include "shell.h"
-
 /**
  * o_myhel - provides help information for shell commands
  * @info: Struct encapsulating potential arguments, utilized for
@@ -18,7 +17,6 @@ int o_myhel(info_t *info)
 	}
 	return (0);
 }
-
 /**
  * o_myexi - function to terminate the shell
  * @info: Struct holding possible arguments, ensuring
