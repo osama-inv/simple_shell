@@ -67,7 +67,7 @@ int oset_alia(info_t *inf, char *strin)
 	}
 	if (!*(++ptr))
 	{
-		return (o_alias_unset(inf, strin));
+		return (ounset_alia(inf, strin));
 	}
 	ounset_alia(inf, strin);
 	return (oadd_node_en(&(inf->alias), strin, 0) == NULL);
