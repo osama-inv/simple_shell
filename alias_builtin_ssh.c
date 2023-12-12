@@ -61,7 +61,7 @@ int oset_alia(info_t *inf, char *strin)
 
 	ptr = _strchr(strin, '=');
 
-	if (ptr == NULL)
+	if (!ptr)
 	{
 		return (1);
 	}
