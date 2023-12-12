@@ -30,7 +30,7 @@ char *o_geten(info_t *inf, const char *nam)
 	list_t *node = inf->env;
 	char *ptr;
 
-	while (node != NULL)
+	while (node)
 	{
 		ptr = ostarts_wit(node->str, nam);
 		if (ptr && *ptr)
