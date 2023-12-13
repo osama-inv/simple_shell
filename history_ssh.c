@@ -62,7 +62,7 @@ int owrite_histor(info_t *info)
 		o_putsf(nod->str, fdess);
 		o_putf('\n', fdess);
 	}
-	o_putf(OBUF_FLUSH, f);
+	o_putf(OBUF_FLUS, fdess);
 	close(fdess);
 	return (1);
 }
