@@ -77,7 +77,7 @@ int o_seten(info_t *inf, char *var, char *valu)
 	{
 		return (0);
 	}
-	buff = malloc(_strlen(var) + _strlen(value) + 2);
+	buff = malloc(_strlen(var) + _strlen(valu) + 2);
 
 	if (!buff)
 	{
