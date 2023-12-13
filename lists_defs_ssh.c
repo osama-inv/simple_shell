@@ -55,7 +55,7 @@ char **olist_to_string(list_t *head)
 				free(str_n[j]);
 				j++;
 			}
-			free(strs);
+			free(str_n);
 			return (NULL);
 		}
 		str = _strcpy(str, nod->str);
