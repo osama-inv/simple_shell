@@ -24,7 +24,7 @@ int o_errato(char *strin)
 		{
 			res = res * 10;
 			res = res + (strin[i] - '0');
-			if (res > OINT_MA)
+			if (res > INT_MAX)
 			{
 				return (-1);
 			}
