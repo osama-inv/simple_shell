@@ -71,7 +71,7 @@ int oprint_(int input, int fdess)
 
 	for (n = 1000000000; n > 1; n = n / 10)
 	{
-		if (n_abs / i)
+		if (n_abs / n)
 		{
 			__putchar('0' + curr / n);
 			count++;
@@ -133,7 +133,7 @@ char *oconvert_numbe(long int n, int base, int flags)
 	*ptr = '\0';
 
 	do	{
-		*--ptr = arry[num % base];
+		*--ptr = ary[num % base];
 		num = num / base;
 	} while (num != 0);
 
