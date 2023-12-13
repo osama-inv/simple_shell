@@ -87,8 +87,8 @@ int oprint_alia(list_t *n)
 
 	if (n != NULL)
 	{
-		ptr = _strchr(n->strin, '=');
-		for (i = n->strin; i <= ptr; i++)
+		ptr = _strchr(n->str, '=');
+		for (i = n->str; i <= ptr; i++)
 		{
 			_putchar(*i);
 		}
