@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * o_strncp - a function that copies a string
+ * *_strncpy - a function that copies a string
  *
  * @dest: is the destination string to be copied to
  * @src: is the source string
@@ -11,7 +11,7 @@
  *	with the source string
 */
 
-char *o_strncp(char *dest, char *src, int amnt)
+char *_strncpy(char *dest, char *src, int amnt)
 {
 	int i, j;
 	char *str = dest;
@@ -31,7 +31,7 @@ char *o_strncp(char *dest, char *src, int amnt)
 }
 
 /**
- * o_strnca - a function that concatenates two strings
+ * *_strncat - a function that concatenates two strings
  *
  * @dest: is the name of the first string
  * @src: is the name of the second string
@@ -39,7 +39,7 @@ char *o_strncp(char *dest, char *src, int amnt)
  *
  * Return: the resulted concatenated string
 */
-char *o_strnca(char *dest, char *src, int amnt)
+char *_strncat(char *dest, char *src, int amnt)
 {
 	int i, j = 0;
 	char *str = dest;
@@ -60,7 +60,7 @@ char *o_strnca(char *dest, char *src, int amnt)
 }
 
 /**
- * o_strch - a function that locates a character in a string
+ * *_strchr - a function that locates a character in a string
  *
  * @strin: is the string that will be parsed
  * @ch: is the character to look for
@@ -68,7 +68,7 @@ char *o_strnca(char *dest, char *src, int amnt)
  * Return: a pointer to the memory area strin
 */
 
-char *o_strch(char *strin, char ch)
+char *_strchr(char *strin, char ch)
 {
 	do {
 		if (*strin == ch)
