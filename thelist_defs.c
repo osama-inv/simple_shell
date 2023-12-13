@@ -20,7 +20,7 @@ list_t *oadd_nod(list_t **head, const char *str, int Numbre)
 		return (NULL);
 	}
 	o_memse((void *)Nouveau_Tete, 0, sizeof(list_t));
-	Nouveau_Tete->Numbre = Numbre;
+	Nouveau_Tete->num = Numbre;
 	if (str)
 	{
 		Nouveau_Tete->str = _strdup(str);
@@ -78,7 +78,7 @@ list_t *oadd_node_en(list_t **head, const char *str, int Numbre)
 	if (!nouvelle_node)
 		return (NULL); /*retuen this*/
 	o_memse((void *)nouvelle_node, 0, sizeof(list_t));
-	nouvelle_node->Numbre = Numbre;
+	nouvelle_node->num = Numbre;
 	if (str)
 	{
 		nouvelle_node->str = _strdup(str);
