@@ -55,7 +55,7 @@ int oprint_(int input, int fdess)
 
 	if (fdess == STDERR_FILENO)
 	{
-		__putchar = _eputchar;
+		__putchar = o_eputcha;
 	}
 	if (input < 0)
 	{

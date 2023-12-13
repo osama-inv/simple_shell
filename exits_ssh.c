@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * *_strncpy - a function that copies a string
+ * _strncpy - a function that copies a string
  *
  * @dest: is the destination string to be copied to
  * @src: is the source string
@@ -31,7 +31,7 @@ char *_strncpy(char *dest, char *src, int amnt)
 }
 
 /**
- * *_strncat - a function that concatenates two strings
+ * _strncat - a function that concatenates two strings
  *
  * @dest: is the name of the first string
  * @src: is the name of the second string
@@ -60,7 +60,7 @@ char *_strncat(char *dest, char *src, int amnt)
 }
 
 /**
- * *_strchr - a function that locates a character in a string
+ * _strchr - a function that locates a character in a string
  *
  * @strin: is the string that will be parsed
  * @ch: is the character to look for
